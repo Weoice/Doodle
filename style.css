@@ -1,0 +1,56 @@
+body {
+
+    background-color: rgb(32, 183, 213);
+    
+    
+    }
+    
+    h1 {
+    
+    margin-left: 60px;
+    font-weight: bolder;
+    font-family: cursive;
+    
+    
+    }
+    
+    
+    
+    canvas {
+    
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+    
+    }
+    
+    @keyframes shadow {
+    from{box-shadow: 1px 1px 38px rgb(53, 20, 215)}
+    to{box-shadow: 1px 1px 38px rgb(80, 5, 80)}
+    
+    }
+    
+    p {
+    
+    padding-top: 10px;
+    font-size: 25px;
+    }
+
+    #Score {
+
+float: right;
+
+
+    }
+
+    #Timer {
+
+        float: left;
+        margin-right: 30px;
+    }
+    
+    
+    
