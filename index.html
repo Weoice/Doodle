@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>DOODLE DRAW</title>
+  <title>Sketch Classification</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -19,37 +19,36 @@
 </head>
 
 <body>
-<center>
-  <div id="myModel" class="modal fade">
-<div class="modal-content">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss = "modal">&times;</button>
-    <h4 class="modal-title">Sketches</h4>
+  <center>
+    <div id="myModel" class="modal fade">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss = "modal">&times;</button>
+      <h4 class="modal-title">Sketches</h4>
+    </div>
+    <div class="modal-body">
+     <img src="sketch1.png"> 
+     <img src="sketch2.png">
+    </div>
   </div>
-  <div class="modal-body">
-   <img src="sketch1.png"> 
-   <img src="sketch2.png">
-  </div>
-</div>
-  </div>
-
-  <h1>Doodle Draw!
+    </div>
   
-</h1> 
-<p id="label">Label: </p>
-<p id="confidence">Confidence: </p>
-<p id="u">Your Sketch: </p><span id="Sketch"></span>
-<p id="Score">Score: </p>
-<p id="Timer">Timer: </p>
-
-<button class="btn btn-danger" onclick="Clear()">Clear Canvas</button>
-</center>
-
-
-
+    <h1>Doodle Draw!
+    
+  </h1> 
+  <p id="label">Label: </p>
+  <p id="confidence">Confidence: </p>
+  <p id="u">Your Sketch: </p><span id='Sketch' + Sketch></span>
+  <p id='Score' + score>Score: </p>
+  <p id="Timer">Timer: </p>
+  
+  <button class="btn btn-danger" onclick="Clear()">Clear Canvas</button>
+  </center>
 
 
 
 
 <script src="main.js"></script>
 </body>
+
+</html>
